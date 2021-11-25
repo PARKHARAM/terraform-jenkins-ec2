@@ -21,7 +21,7 @@
 
       
 
-      stage('TF Apply') {
+      stage('TF Apply2') {
         steps {
           sh 'terraform apply --auto-approve'
         }
